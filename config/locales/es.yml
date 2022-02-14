@@ -56,6 +56,14 @@ es:
       messages:
         inclusion: "no est&aacute; incluida en la lista"
         blank: "no puede qudar en blanco"
+    models:
+      order: "pedido"
+    attributes:
+      order:
+        address: "Direcci&oacute;n"
+        name: "Nombre"
+        email: "E-mail"
+        pay_type: "Forma de pago"
   errors:
     template:
       body: "Hay problemas con los siguientes campos:"
