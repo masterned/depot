@@ -50,3 +50,15 @@ es:
         expiration_date: "Expiración"
       purchase_order_pay_type:
         po_number: "Número"
+
+  activerecord:
+    errors:
+      messages:
+        inclusion: "no est&aacute; incluida en la lista"
+        blank: "no puede qudar en blanco"
+  errors:
+    template:
+      body: "Hay problemas con los siguientes campos:"
+      header:
+        one: "1 error hs impedido que este %{model} se guarde"
+        other: "%{count} errores han impedido que este %{model} se guarde"
